@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: moltin
 x-complete: 1
@@ -37,4 +36,3 @@ paths:
       - Generate
       - Customer
       - Token
----

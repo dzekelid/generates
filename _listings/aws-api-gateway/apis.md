@@ -16,11 +16,44 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Generates
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/aws-api-gateway/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS API Gateway API - Clientcertificate Generate
+  x-api-slug: clientcertificates-post
+  description: Generates a new ClientCertificate resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/aws-api-gateway/clientcertificates-post-openapi.md
+- name: AWS API Gateway API - Clientcertificate Generate
+  x-api-slug: clientcertificates-post
+  description: Generates a new ClientCertificate resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/aws-api-gateway/clientcertificates-post-openapi.md
+- name: AWS API Gateway API - Clientcertificate Generate
+  x-api-slug: clientcertificates-post
+  description: Generates a new ClientCertificate resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/aws-api-gateway/clientcertificates-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://awhere.api.gallery.streamdata.io

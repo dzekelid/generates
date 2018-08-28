@@ -10,11 +10,40 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Generates
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/vmware/apis.md
 specificationVersion: "0.14"
 apis:
+- name: vRealize Operations 6 - Get Generated Reports
+  x-api-slug: apireports-get
+  description: |-
+    You can check status of report runs this way.
+    To get a specific generated report add /<report id>
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/vmware/apireports-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/vmware/apireports-get-openapi.md
+- name: vRealize Operations 6 - Generate a report
+  x-api-slug: apireports-post
+  description: |-
+    You will need to update several items in the body such as:
+      - ID of resource you wish to run this report on
+      - ID of the report you wish to run
+      - Traversal Spec for the report (you can get this from the API query
+    "Get Report Definitions", the travesal spec must match the resource type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
+  humanURL: http://vmware.com
+  baseURL: https://example.com//suite-api/api
+  tags: Cloud, Compute, Service API, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/vmware/apireports-post-openapi.md
 - name: vRealize Operations 6 - Get Generated Reports
   x-api-slug: apireports-get
   description: |-

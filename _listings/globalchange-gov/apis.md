@@ -9,11 +9,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Generates
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/globalchange-gov/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Global Change Information System API - Generate a UUID.
+  x-api-slug: uuid-get
+  description: <p>Generate version 4 Universally Unique Identifiers.  The algorithm
+    used for thisn    is described <a target=_blank href=https://en.wikipedia.org/wiki/UUID#Version_4_.28random.29>here</a>.n    </p>
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/globalchange-gov/uuid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/globalchange-gov/uuid-get-openapi.md
 - name: Global Change Information System API - Generate a UUID.
   x-api-slug: uuid-get
   description: <p>Generate version 4 Universally Unique Identifiers.  The algorithm

@@ -35,6 +35,30 @@ paths:
           description: OK
       tags:
       - Reports
+    post:
+      summary: Generate a report
+      description: |-
+        You will need to update several items in the body such as:
+          - ID of resource you wish to run this report on
+          - ID of the report you wish to run
+          - Traversal Spec for the report (you can get this from the API query
+        "Get Report Definitions", the travesal spec must match the resource type.
+      operationId: ApiReportsPost
+      x-api-path-slug: apireports-post
+      parameters:
+      - in: header
+        name: Accept
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Content-Type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Reports
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

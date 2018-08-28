@@ -20,11 +20,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Generates
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/aws-machine-learning/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Machine Learning API - Create Batch Prediction
+  x-api-slug: actioncreatebatchprediction-get
+  description: Generates predictions for a group of observations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/aws-machine-learning/actioncreatebatchprediction-get-openapi.md
 - name: AWS Machine Learning API - Predict
   x-api-slug: actionpredict-get
   description: Generates a prediction for the observation using the specified ML Model.
@@ -38,6 +49,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/aws-machine-learning/actionpredict-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/aws-machine-learning/actionpredict-get-openapi.md
+- name: AWS Machine Learning API - Create Batch Prediction
+  x-api-slug: actioncreatebatchprediction-get
+  description: Generates predictions for a group of observations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/aws-machine-learning/actioncreatebatchprediction-get-openapi.md
 - name: AWS Machine Learning API - Predict
   x-api-slug: actionpredict-get
   description: Generates a prediction for the observation using the specified ML Model.

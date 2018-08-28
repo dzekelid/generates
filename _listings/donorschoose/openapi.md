@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: DonorsChoose
 x-complete: 1
@@ -29,4 +28,3 @@ paths:
       - Generate
       - Gift
       - Code
----

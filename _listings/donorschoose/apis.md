@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/394-donors
 x-kinRank: "7"
 x-alexaRank: "23784"
 tags: Generates
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/donorschoose/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Donors Choose - Generate Gift Code
+  x-api-slug: json-api-html-post
+  description: Generate Gift Code
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/394-donorschoose.jpg
+  humanURL: http://donorschoose.org
+  baseURL: https://api.donorschoose.org/common/
+  tags: Education, Classroom, Teachers, Donate, K 12, Nonprofit, Donation, Education,
+    API LIfeyclessss, Marketplace, Technology, internet, API Provider, Charities,
+    Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/donorschoose/json-api-html-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/donorschoose/json-api-html-post-openapi.md
 - name: Donors Choose - Generate Gift Code
   x-api-slug: json-api-html-post
   description: Generate Gift Code

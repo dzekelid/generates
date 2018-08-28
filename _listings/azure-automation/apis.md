@@ -9,11 +9,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Generates
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/azure-automation/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AutomationManagementClient - Webhook Generate Uri
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamewebhooksgenerateuri-post
+  description: Generates a Uri for use in creating a webhook.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: https://azure.microsoft.com/en-us/services/automation/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamewebhooksgenerateuri-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamewebhooksgenerateuri-post-openapi.md
 - name: AutomationManagementClient - Webhook Generate Uri
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamewebhooksgenerateuri-post
   description: Generates a Uri for use in creating a webhook.

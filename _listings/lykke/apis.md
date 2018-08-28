@@ -7,11 +7,91 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Generates
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Wallet_Api - Add API Ethereum Privatewallet Generatetransaction
+  x-api-slug: apiethereumprivatewalletgeneratetransaction-post
+  description: Add api ethereum privatewallet generatetransaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/lykke/apiethereumprivatewalletgeneratetransaction-post-openapi.md
+- name: Wallet_Api - Add API Generatetransfertransaction
+  x-api-slug: apigeneratetransfertransaction-post
+  description: Add api generatetransfertransaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/lykke/apigeneratetransfertransaction-post-openapi.md
+- name: Wallet_Api - Add API Ethereum Privatewallet Generatetransaction
+  x-api-slug: apiethereumprivatewalletgeneratetransaction-post
+  description: Add api ethereum privatewallet generatetransaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/lykke/apiethereumprivatewalletgeneratetransaction-post-openapi.md
+- name: Wallet_Api - Add API Generatetransfertransaction
+  x-api-slug: apigeneratetransfertransaction-post
+  description: Add api generatetransfertransaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/lykke/apigeneratetransfertransaction-post-openapi.md
+- name: Wallet_Api - Add API Ethereum Privatewallet Generatetransaction
+  x-api-slug: apiethereumprivatewalletgeneratetransaction-post
+  description: Add api ethereum privatewallet generatetransaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/lykke/apiethereumprivatewalletgeneratetransaction-post-openapi.md
+- name: Wallet_Api - Add API Generatetransfertransaction
+  x-api-slug: apigeneratetransfertransaction-post
+  description: Add api generatetransfertransaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/lykke/apigeneratetransfertransaction-post-openapi.md
+- name: Wallet_Api - Add API Ethereum Privatewallet Generatetransaction
+  x-api-slug: apiethereumprivatewalletgeneratetransaction-post
+  description: Add api ethereum privatewallet generatetransaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/lykke/apiethereumprivatewalletgeneratetransaction-post-openapi.md
+- name: Wallet_Api - Add API Generatetransfertransaction
+  x-api-slug: apigeneratetransfertransaction-post
+  description: Add api generatetransfertransaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/generates/master/_listings/lykke/apigeneratetransfertransaction-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lyft.api.gallery.streamdata.io
